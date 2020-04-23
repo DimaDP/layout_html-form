@@ -13,7 +13,8 @@
   <form
     action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     onsubmit="onSubmit()"
-    autocomplete="off">
+    autocomplete="off"
+  >
 
     <fieldset>
       <legend>Personal information</legend>
@@ -24,7 +25,8 @@
           name="surname"
           id="surname"
           minlength="3"
-          maxlength="20">
+          maxlength="20"
+        >
       </div>
 
       <div>
@@ -34,7 +36,8 @@
           name="username"
           id="username"
           minlength="3"
-          maxlength="20">
+          maxlength="20"
+        >
       </div>
 
       <div>
@@ -45,7 +48,8 @@
           id="age"
           min="6"
           max="115"
-          value="12">
+          value="12"
+        >
       </div>
 
       <div>
@@ -53,7 +57,8 @@
         <input
           type="date"
           id="birthday"
-          name="birthday">
+          name="birthday"
+        >
       </div>
 
       <div>
@@ -61,7 +66,8 @@
         <input
           type="checkbox"
           id="agreement"
-          name="agreement">
+          name="agreement"
+        >
       </div>
     </fieldset>
 
@@ -73,7 +79,8 @@
           type="email"
           id="email"
           name="email"
-          placeholder="email@example.com">
+          placeholder="email@example.com"
+        >
       </div>
 
       <div>
@@ -82,7 +89,8 @@
           type="password"
           id="password"
           name="password"
-          required>
+          required
+        >
       </div>
     </fieldset>
 
@@ -94,13 +102,15 @@
         <input
           id="Yes"
           type="radio"
-          name="catlover">Yes
+          name="catlover"
+        >Yes
         </label>
         <label for="No">
           <input
           id="No"
           type="radio"
-          name="catlover">No
+          name="catlover"
+        >No
         </label>
       </div>
 
@@ -109,7 +119,8 @@
         <input
           type="color"
           id="favcolor"
-          name="favcolor">
+          name="favcolor"
+        >
       </div>
 
       <div>
@@ -117,12 +128,17 @@
         <input
           type="time"
           id="sleeptime"
-          name="sleeptime">
+          name="sleeptime"
+        >
       </div>
 
       <div>
         <label for="cars">What are your favorite brand of cars?</label>
-        <select name="cars" id="cars" multiple>
+        <select
+          name="cars"
+          id="cars"
+          multiple
+        >
           <option selected value="s1">BMW</option>
           <option value="s2">Audi</option>
           <option value="s3">Lada</option>
@@ -134,7 +150,8 @@
         <input
           type="range"
           id="rate"
-          value="0">
+          value="0"
+        >
       </div>
     </fieldset>
 
@@ -147,7 +164,10 @@
 
       <div>
         <label for="recommendation">Would you recommend us?</label>
-        <select id="recommendation" name="recommendation">
+        <select
+          id="recommendation"
+          name="recommendation"
+        >
           <option selected value="s1">Yes</option>
           <option value="s2">No</option>
         </select>
@@ -160,7 +180,8 @@
         type="submit"
         id="submit"
         name="submit"
-        value="Submit">
+        value="Submit"
+      >
     </div>
   </form>
 </body>
